@@ -55,7 +55,7 @@ public class BowlinAdminController {
 		System.out.println("로그아웃----------------------");
 		session.invalidate();
 		
-		return "redirect:/";
+		return "redirect:/main.html";
 	}
 
 }
